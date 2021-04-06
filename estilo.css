@@ -1,0 +1,74 @@
+body{
+    font: normal 14pt 'Roboto Mono';
+    background: url("imagens/poke4.png");
+    /* background-color: red; */
+    background-size: 110%;
+    background-position: justify;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    font: normal 18pt 'Roboto Mono';
+    color: #e30613;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0 0 5px;
+}
+
+section{
+    color: #000;
+    font-weight: bold;
+    font: 'Arial';
+    /* background: rgba(128, 128, 128, 0.596); */
+    background: rgba(128, 128, 128, 0.685);
+    border-radius: 10px;
+    padding: 15px;
+    width: 650px;
+    margin: auto;
+    align-items: center;
+}
+input[type=number]{
+    width: 90px;
+    height: 20px;
+}
+input[type=button]{
+    width: 150px;
+    height: 30px;
+    /* border-radius: 3px; */
+    margin-left: 230px;
+    background-color: #000;
+    color: #FFF;
+    font: normal 12pt 'Roboto Mono';
+    font-weight: bold;
+    /* margin-right: 50px; */
+}
+
+#resultado{
+    background-color: #540b0e;
+    /* background-color: #ff5714; */
+    text-align: center;
+    font: normal 12pt 'Arial';
+    color: #fff;
+}
+
+#personagem{
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#caracteristica{
+    background-color: #540b0e;
+    /* background-color: #ff5714; */
+    text-align: center;
+    font: normal 12pt 'Arial';
+    color: #fff;
+}
+
+
+footer{
+    color: #000;
+    text-align: center;
+    font-style: italic;
+}
